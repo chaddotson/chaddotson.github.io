@@ -1,0 +1,22 @@
+title: Chad Dotson
+tagline: Software Engineer
+description: >-
+  Software engineer focused on building thoughtful, dependable software
+  and making complex systems easier to understand.
+url: "https://chaddotson.github.io"
+baseurl: ""
+repository: chaddotson/chaddotson.github.io
+
+author:
+  name: Chad Dotson
+  github: chaddotson
+
+permalink: pretty
+timezone: America/Chicago
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
