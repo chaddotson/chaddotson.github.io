@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f5f3ee">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#e8e9e7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0d1110" media="(prefers-color-scheme: dark)">
     <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace }}">
 
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
