@@ -1,6 +1,6 @@
-# Chad Dotson — Software Engineer
+# Chad Dotson
 
-A responsive software-engineering portfolio built with Jekyll for GitHub Pages.
+A simple one-page personal site built with Jekyll for GitHub Pages.
 
 ## Run locally
 
@@ -28,8 +28,6 @@ root (`/`) folder. The site will be available at
 
 ## Customize
 
-- Edit biography, expertise, and project content in `index.html`.
+- Edit the about text in `index.html`.
 - Update site metadata and author links in `_config.yml`.
-- Adjust the visual system in `assets/css/main.css`.
-- Replace the placeholder project card once another case study is ready.
-
+- Adjust the small visual theme in `assets/css/main.css`.
