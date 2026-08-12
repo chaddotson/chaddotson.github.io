@@ -1,116 +1,53 @@
 ---
 layout: default
 title:
-description: The curriculum vitae of Chad Dotson, software engineer.
+description: Chad Dotson is a software engineer focused on useful, dependable software.
 ---
 
-<article class="cv">
-  <aside class="sidebar">
-    <img
-      class="portrait"
-      src="https://avatars.githubusercontent.com/u/1754094?v=4"
-      alt="Portrait of Chad Dotson"
-      width="220"
-      height="220"
-    >
-
-    <header class="identity">
-      <h1>Chad<br>Dotson</h1>
-      <p>Software Engineer</p>
+<section class="home-hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <header class="hero-header">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Chad Dotson, home">CD<span>.</span></a>
+      <p><span aria-hidden="true"></span> Software engineer</p>
     </header>
 
-    <section class="sidebar-section" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
-      <ul class="link-list">
-        <li>
-          <span>GitHub</span>
-          <a class="github-link" href="https://github.com/{{ site.author.github }}" rel="me">
-            {% include github-mark.svg %}
-            @{{ site.author.github }}
-          </a>
-        </li>
-        <li>
-          <span>Web</span>
-          <a href="https://www.cdotson.com">cdotson.com</a>
-          <a href="https://www.chaddotson.dev">cdotson.com</a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sidebar-section" aria-labelledby="skills-title">
-      <h2 id="skills-title">Areas of focus</h2>
-      <ul class="plain-list">
-        <li>Software architecture</li>
-        <li>Web development</li>
-        <li>Python</li>
-        <li>Automation</li>
-        <li>Data tooling</li>
-        <li>Developer experience</li>
-      </ul>
-    </section>
-  </aside>
-
-  <div class="resume">
-    <section class="resume-section">
-      <p class="section-label">Profile</p>
-      <p class="summary">
-        Software engineer focused on building useful, dependable software and
-        making complex systems easier to understand.
-      </p>
-      <p>
-        I care about thoughtful design, maintainable code, and solving the
-        right problem. My approach favors simple models, clear communication,
+    <div class="hero-message">
+      <p class="eyebrow">Hello, I’m Chad.</p>
+      <h1 id="hero-title">I make complex things feel <em>simple.</em></h1>
+      <p class="hero-intro">
+        I’m a software engineer focused on thoughtful design, maintainable code,
         and practical solutions that hold up over time.
       </p>
-    </section>
 
-    <section class="resume-section">
-      <p class="section-label">Selected open-source work</p>
+      <nav class="hero-actions" aria-label="Find Chad online">
+        <a class="button button-primary" href="https://github.com/{{ site.author.github }}" rel="me">
+          Explore my work <span aria-hidden="true">↗</span>
+        </a>
+        <a class="button button-secondary" href="https://www.cdotson.com">
+          cdotson.com <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </div>
 
-      <div class="entry">
-        <div class="entry-heading">
-          <h2>County Adjacency</h2>
-          <a href="https://github.com/{{ site.author.github }}/county_adjacency">View project ↗</a>
-        </div>
-        <p class="entry-meta">Python package · Geographic data</p>
-        <p>
-          A package providing adjacency information for United States counties
-          and county equivalents, derived from U.S. Census data.
-        </p>
-      </div>
-
-      <div class="entry">
-        <div class="entry-heading">
-          <h2>Puzzles</h2>
-          <a href="https://github.com/{{ site.author.github }}/puzzles">View project ↗</a>
-        </div>
-        <p class="entry-meta">Algorithms · Multiple languages</p>
-        <p>
-          A collection of programming-puzzle implementations exploring
-          algorithms and problem-solving across different languages.
-        </p>
-      </div>
-
-      <div class="entry">
-        <div class="entry-heading">
-          <h2>Datasets</h2>
-          <a href="https://github.com/{{ site.author.github }}/datasets">View project ↗</a>
-        </div>
-        <p class="entry-meta">Open data · Research</p>
-        <p>
-          A public collection of aggregated and generated datasets for
-          analysis, experiments, and software projects.
-        </p>
-      </div>
-    </section>
-
-    <section class="resume-section">
-      <p class="section-label">How I work</p>
-      <div class="principles">
-        <p><strong>Understand first.</strong> Get clear on the problem before choosing the solution.</p>
-        <p><strong>Keep it maintainable.</strong> Optimize for the people who will use and change the system.</p>
-        <p><strong>Make it useful.</strong> Favor practical outcomes over unnecessary complexity.</p>
-      </div>
-    </section>
+    <ul class="focus-list" aria-label="Areas of focus">
+      <li>Architecture</li>
+      <li>Web</li>
+      <li>Python</li>
+      <li>Automation</li>
+      <li>Data</li>
+    </ul>
   </div>
-</article>
+
+  <div class="hero-visual">
+    <div class="portrait-frame">
+      <img
+        src="https://avatars.githubusercontent.com/u/1754094?v=4"
+        alt="Portrait of Chad Dotson"
+        width="720"
+        height="720"
+      >
+    </div>
+    <p class="visual-note">Building useful things<br>for the web and beyond.</p>
+    <span class="visual-index" aria-hidden="true">01 / 01</span>
+  </div>
+</section>
